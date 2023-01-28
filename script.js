@@ -1,13 +1,27 @@
-/* Recap
-Black box 1: Whatever is returned, will appear in the gray box
-Black box 2: input is whatever the user types in the input box
-*/
-
 /* Today's topics
-1. console.log()
+1. Functions
+  - Purpose
+    * Reusability
+    * Encapsulation
+  - 2 Steps!!!
+    * Declare
+    * Call
+  - Arguments vs Parameters
+  - Mental Model
+    * Secondary school math functions -> f(x) = x + 5
 */
 
-// Group exercise: Return the square of the number given by the user
+// f(x) = 5
+// No parameters
+function giveFive() {
+  return 5;
+}
+
+// f(x) = x + 3
+function addThree(x) {
+  return x + 3;
+}
+
 var main = function (input) {
   return "hello " + input;
 };
