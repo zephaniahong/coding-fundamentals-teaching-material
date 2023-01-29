@@ -1,6 +1,6 @@
 /* Recap
 Black box 1: Everything inside the main function only runs when the submit button is clicked
-Black box 2: Whatever is returned, will appear in the gray box
+Black box 2: Whatever is returned from the main function will appear in the gray box
 Black box 3: input is whatever the user types in the input box
 */
 
