@@ -1,53 +1,13 @@
-/* Today's topics
-1. Functions
-  - Purpose
-    * Reusability
-    * Encapsulation
-  - 2 Steps!!!
-    * Declare
-    * Call
-  - Arguments vs Parameters
-  - Mental Model
-    * Secondary school math functions -> f(x) = x + 5
+/* Recap
+Black box 1: Everything inside the main function only runs when the submit button is clicked
+Black box 2: Whatever is returned, will appear in the gray box
+Black box 3: input is whatever the user types in the input box
 */
 
-// f(x) = 5
-// No parameters
-function giveFive() {
-  return 5;
-}
-
-// f(x) = 3
-function giveThree() {
-  return 3;
-}
-
-// Above functions do not make use of x
-
-// Single parameters
-// f(x) = x
-function giveX(x) {
-  return x;
-}
-
-// f(x) = x + 3
-function addThree(x) {
-  return x + 3;
-}
-
-// Multiple parameters
-// f(x, y, z) = x + y + z
-function sumNums(a, b, c) {
-  return a + b + c;
-}
-
-var result = sumNums(1, 2, 3);
-
-var chicken = 1;
-var rice = 2;
-var soup = 3;
-
-var result2 = sumNums(chicken, rice, soup);
+/*
+Today's topic 
+1. console.log
+*/
 
 var main = function (input) {
   return "hello " + input;
