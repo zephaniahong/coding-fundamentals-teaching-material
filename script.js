@@ -15,6 +15,7 @@ Today's topic
   - Debugging
 */
 
+// Exercise: Given a number by the user, return "The cube of the <number> is <answer>" and cube of the number
 var main = function (input) {
   return "hello " + input;
 };
