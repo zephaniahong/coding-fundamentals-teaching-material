@@ -6,6 +6,13 @@
   - not
 */
 
+function main(input) {
+  // weeks to minutes conversion
+  return `${input} weeks is equivalent to ${Number(input) * 10080} minutes`;
+  // input -> 1 : week
+  // input > 1: weeks
+}
+
 // Exercise
 // Grade student's result
 // Extra: Solve without using the 'and' boolean
