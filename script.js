@@ -41,13 +41,11 @@ function sumNums(a, b, c) {
   return a + b + c;
 }
 
-var result = sumNums(1, 2, 3);
-
-var chicken = 1;
-var rice = 2;
-var soup = 3;
-
-var result2 = sumNums(chicken, rice, soup);
+// practical example
+// f(r) = 3.14 * r ** 2
+function getAreaOfCircle(radius) {
+  return 3.14 * radius ** 2;
+}
 
 var main = function (input) {
   return "hello " + input;
