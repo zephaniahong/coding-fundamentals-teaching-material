@@ -1,43 +1,43 @@
-/* Today's topics
-1. If statements 
-2. Booleans
-  - not
-  - or
-  - and
+/*
+Today's topics:
+1. Input validation
+2. Global state
+  - Scoping
+4. Game modes
 */
 
-// Operators
-// === // = = =
-// !== // ! = =
-// >= // > =
-// <= // < =
-// >
-// <
-// or -> ||
-// and -> &&
+// // Input Validation Example
+// function main(input) {
+//   // How do I return "This is a valid input" only if the input is greater than 10? (Otherwise, return "Invalid")
+//   return "This is a valid input";
+// }
 
-// Boolean examples
-// if i am above 21, I am allowed to drink
-// if i am not above 18, I cannot drive
+// // Global state
+// var chicken = 5;
 
-// Boolean and
-// if i am above 20 and below 40, I am a youth
+// function main(input) {
+//   var chicken = 10;
+//   // Quiz: What will be the value of chicken in the console.log?
+//   console.log(chicken);
+//   // Quiz: If chicken is not declared in main, can I still console.log chicken in main? Why or why not?
+// }
 
-// Boolean or
-// if i am above 13 years old or I am at least 160cm, I am allowed to ride the rollercoaster
+// // Global state persists
+// var rice = 0;
 
-// Using not
-// !(5 === 10) -> true
-// 5 !== 10 -> true
-// !true -> false
-// !false -> true
+// function main(input) {
+//   rice += 1;
+//   return rice;
+// }
 
-// Exercise
-// Grade student's result
-// Extra: Solve without using and
-// F - Less than 50
-// D: 50 - 59
-// C: 60 - 69
-// B: 70 - 79
-// A: 80 - 89
-// A+: 90 - 100
+// // Game Modes
+// var mode = "player";
+
+// function main(input) {
+//   if (input < 100) {
+//     mode = "computer";
+//   } else {
+//     mode = "player";
+//   }
+//   return `The game mode is ${mode}.`;
+// }
