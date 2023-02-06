@@ -41,3 +41,39 @@
 // B: 70 - 79
 // A: 80 - 89
 // A+: 90 - 100
+
+// Why does this program require us to use the && operator?
+// How could we write this program without using the && operator?
+// What happens if we input a value greater than 100? Must we check for values above 100 to infinity?
+function main(input) {
+  var result;
+  if (input < 50) {
+    result = "F";
+  }
+  if (input >= 50 && input < 60) {
+    result = "D";
+  }
+  if (input >= 60 && input < 70) {
+    result = "C";
+  }
+  if (input >= 70 && input < 80) {
+    result = "B";
+  }
+  if (input >= 80 && input < 90) {
+    result = "A";
+  }
+  if (input >= 90 && input <= 100) {
+    result = "A+";
+  }
+  return result;
+}
+
+// else if and else
+var chicken = 5;
+if (chicken < 10) {
+  console.log("I am less than 10");
+} else if (chicken < 20) {
+  console.log("I am less than 20 but not less than 10");
+} else {
+  console.log("I am 20 or greater");
+}
