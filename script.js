@@ -41,3 +41,6 @@ Today's topics:
 //   }
 //   return `The game mode is ${mode}.`;
 // }
+
+// Exercise
+// Create a game that consists of 2 players. Begin by getting 2 names from the user. Based on the input given by the user (i.e. either of the 2 names) increment the respective player's score
