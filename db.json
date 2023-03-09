@@ -1,0 +1,6 @@
+{
+    "ditto": {
+        "abilities": ["shoot fire", "extinguish fire"],
+        "element": "fire"
+    }
+}
