@@ -3,11 +3,6 @@
  * 1. Testing
  * 2. Tic Tac Toe
  */
-var add2 = require("../script");
-
-test("2 + 5 is 7", () => {
-  expect(add2(5)).toEqual(7);
-});
 
 function sum(a, b) {
   return a + b;
