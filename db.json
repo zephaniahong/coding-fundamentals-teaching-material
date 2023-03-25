@@ -2,5 +2,9 @@
     "ditto": {
         "abilities": ["shoot fire", "extinguish fire"],
         "element": "fire"
+    },
+    "charizard": {
+        "abilities": ["shoot water"],
+        "element": "water"
     }
 }
