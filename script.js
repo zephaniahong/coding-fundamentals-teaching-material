@@ -12,7 +12,16 @@ Black box 3: Whatever is returned from the main function will appear in the gray
 Black box 4: input is whatever the user types in the input box
 */
 
-// Exercise: Given a number by the user, return "The cube of the <number> is <answer>" and cube of the number
-var main = function (input) {
-  return "hello " + input;
-};
+// Exercise: Given a number by the user, return "The cube of <number> is <answer>"
+
+// Fahrenheit to Celsius
+// The user enters a temperature in Fahrenheit. The program should output the conversion to Celsius in the output box.
+// Format the output nicely.
+function f2c() {
+  return 5;
+}
+
+function main(input) {
+  var celsius = ((input - 30) * 5) / 7;
+  return `The temperature in Celsius is ${celsius}`;
+}
